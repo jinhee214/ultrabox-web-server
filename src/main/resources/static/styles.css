@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import "css/reset.css";
+@import "css/login.css";
+@import "css/signup.css";
+body {
+  font-family: "Jua", sans-serif;
+  color: white;
+  background-color: #8e44ad;
+  width: 100%;
+}
+:root {
+  --original-purple: #8d44ad;
+  --button-purple: #d6a2e8;
+}

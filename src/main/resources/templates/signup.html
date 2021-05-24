@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">회원가입</h1>
+    </header>
+    <form action="" method="GET" id="signup-form">
+      <div class="signup-form__input">
+        <ul>
+          <li>ID <input name="userid" type="text" placeholder="ID 입력" required /></li>
+          <li>
+            비밀번호 <input
+              name="password"
+              type="password"
+              placeholder="비밀번호 입력"
+              required
+            />
+          </li>
+          <li>
+            이름 <input name="username" type="text" placeholder="이름 입력" required />
+          </li>
+          <li>
+            핸드폰 <input
+              name="mobile"
+              type="tel"
+              pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+              placeholder="핸드폰 번호 (ex. 123-4567-7890)"
+              required
+            />
+          </li>
+          <li>메일 <input name="mail" type="email" placeholder="메일 입력 (ex. abcd@gmail.com)" required></li>
+          <li>생년월일 <input name="date" type="date" required></li>
+        </ul>
+        
+      <div class="login-form__button">
+        <input type="submit" value="등록" />
+      </div>
+    </form>
+  </body>
+</html>
